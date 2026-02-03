@@ -1,6 +1,30 @@
- html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta chrset="UTF-8">
-  <meta name="viewport" content="width=device- 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car & Home Rentals</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <h1>Car & Home Rentals Made Simple</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="rentals.html">Rentals</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p>Book vehicles and homes from one platform!</p>
+      <a class="btn" href="rentals.html">View Rentals</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Rental Platform</p>
+  </footer>
+</body>
+</html>
