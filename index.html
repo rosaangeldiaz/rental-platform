@@ -3,27 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Car & Home Rentals</title>
+  <title>Urban Keys | Secure Payment</title>
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+
   <header>
-    <h1>Car & Home Rentals Made Simple</h1>
+    <h1 class="logo">🔑 Urban Keys</h1>
     <nav>
-      <a href="index.html">Home</a>
+      <a href="index.html">Payment</a>
       <a href="rentals.html">Rentals</a>
     </nav>
   </header>
 
-  <main>
-    <section class="intro">
-      <p>Book vehicles and homes from one platform!</p>
-      <a class="btn" href="rentals.html">View Rentals</a>
+  <main class="payment-page">
+    <section class="payment-container">
+      <h2>Complete Your Payment</h2>
+      <p>Please enter your booking details below.</p>
+
+      <form>
+        <label>Full Name</label>
+        <input type="text" required>
+
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Rental Type</label>
+        <select>
+          <option>Car Rental</option>
+          <option>Home Rental</option>
+        </select>
+
+        <label>Amount ($)</label>
+        <input type="number" required>
+
+        <button type="submit" class="btn">Proceed to Payment</button>
+      </form>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 Rental Platform</p>
+  <p>&copy; 2026 Urban Keys</p>
+  <p class="credit">created by LaunchYourWeb.dev</p>
   </footer>
+
 </body>
 </html>
