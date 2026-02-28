@@ -1,3 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('../images/background.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: gold;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+main {
+  padding: 40px;
+  text-align: center;
+}
+
+.payment-container {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn {
+  background: gold;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: white;
+}
+
+.rentals {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.rental-card {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
 footer {
   background: rgba(0, 0, 0, 0.9);
   padding: 20px;
